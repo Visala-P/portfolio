@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "node ./node_modules/vite/bin/vite.js build && node sync-index.js",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "dev": "node ./node_modules/vite/bin/vite.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
