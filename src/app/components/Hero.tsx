@@ -2,7 +2,8 @@ import { Download, Sparkles, Heart } from 'lucide-react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import resumeFile from '/UIUX_resume.pdf';
-import profileImage from '/profile.jpeg';
+
+const profileImage = `${import.meta.env.BASE_URL}profile.jpeg`;
 
 export function Hero() {
   const scrollToProjects = () => {
