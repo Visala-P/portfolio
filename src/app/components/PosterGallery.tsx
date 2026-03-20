@@ -1,10 +1,10 @@
 import { ExternalLink, Figma } from 'lucide-react';
-import posterOne from '../../public/Poster 1.png';
-import posterTwo from '../../public/Poster 2.png';
-import posterThree from '../../public/Poster 3.png';
-import posterFour from '../../public/Poster 4.png';
-import posterFive from '../../public/Poster 5.png';
-import posterSix from '../../public/Poster 6.png';
+import posterOne from '/Poster 1.png';
+import posterTwo from '/Poster 2.png';
+import posterThree from '/Poster 3.png';
+import posterFour from '/Poster 4.png';
+import posterFive from '/Poster 5.png';
+import posterSix from '/Poster 6.png';
 
 const posterLink = 'https://www.figma.com/design/GyqrkXD6vr5k0HUiA8aufz/posters?m=auto&t=amuMv7J7l6pN8UQx-6';
 
