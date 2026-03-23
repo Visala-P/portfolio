@@ -7,7 +7,7 @@
     "build": "node ./node_modules/vite/bin/vite.js build",
     "dev": "node ./node_modules/vite/bin/vite.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
